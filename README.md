@@ -66,6 +66,7 @@ You might also be interested in when R users responded to the survey.
 
 ```r
 package_survey %>%
+    distinct(respondent, .keep_all = TRUE) %>%
     ggplot(aes(response_time)) +
     geom_histogram() +
     labs(x = NULL,
