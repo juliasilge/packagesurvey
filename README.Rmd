@@ -54,7 +54,7 @@ package_survey %>%
 
 You might also be interested in when R users responded to the survey.
 
-```{r}
+```{r, fig.width=7, fig.height=5}
 package_survey %>%
     distinct(respondent, .keep_all = TRUE) %>%
     ggplot(aes(response_time)) +
