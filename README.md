@@ -1,18 +1,13 @@
----
-output:
-  md_document:
-    variant: markdown_github
----
-
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 
 
-# packagesurvey: An online survey of R users about navigating the R package universe
+# packagesurvey: Navigating the R package universe
 
 **Author:** [Julia Silge](http://juliasilge.com/) <br/>
 **License:** [MIT](https://opensource.org/licenses/MIT)
 
+[![Build Status](https://travis-ci.org/juliasilge/packagesurvey.svg?branch=master)](https://travis-ci.org/juliasilge/packagesurvey)
 
 There are now more than 11,000 packages on CRAN, and R users must approach this abundance of packages with effective strategies to find what they need and choose which packages to invest time in learning how to use. At useR!2017, I contributed to an [organized session](http://sched.co/AypJ) focused on discovering, learning about, and evaluating R packages. In preparation for that session, I ran a brief online survey in the spring of 2017 to ask R users how they currently discover and learn about R packages. This package contains the results of that survey.
 
