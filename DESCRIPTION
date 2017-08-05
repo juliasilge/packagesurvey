@@ -1,0 +1,15 @@
+Package: packagesurvey
+Type: Package
+Title: Survey of R Users on Package Discovery
+Version: 0.1.0
+Authors@R: person("Julia", "Silge", email = "julia.silge@gmail.com", role = c("aut", "cre"))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Results from an online survey run in preparation for a session at
+    useR!2017 focused on discovering, learning about, and evaluting R packages.
+URL: https://github.com/juliasilge/packagesurvey
+BugReports: https://github.com/juliasilge/packagesurvey/issues
+Depends: R (>= 2.10)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
